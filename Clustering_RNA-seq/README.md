@@ -10,7 +10,9 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
 ##### Workflow:
 
-![Workflow](/Users/jyguo/BRL/Learning-Tableau/Clustering_RNA-seq/image/Workflow.jpg)
+![Workflow](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Workflow.jpg)
+
+
 
 ## Summary:
 
@@ -18,7 +20,13 @@ Limitation of Tableau:
 
 * Tableau only read data by columns, not by rows
 
-  * For our data, we need to cluster it by columns, but visualize it by rows
+  * For our data, we need unpivoted data to do clustering analysis by columns (shown as Unpivoted_Workbook), but visualize it by rows (shown as Pivoted_Workbook)
+
+  * Eg. Pivoted Data:
+
+    Visualization based on rows:
+
+    Failed Clustering:
 
 * TabPy Calculation: cannot return multiple results in one calculated field
 
@@ -28,9 +36,19 @@ Limitation of Tableau:
 
   * Eg. If we get a list of cluster id from clustering process of original gene data, we cannot do calculations based on each cluster unless export clusters seperately
 
-    ![Cluster_preprocess](/Users/jyguo/BRL/Learning-Tableau/Clustering_RNA-seq/image/Cluster_preprocess.png)
+    ![ClustersProcess](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Cluster_preprocess.png)
 
 
 
 ## Folder & Files:
+
+**df5_log2_ratio.csv:** Transcriptomics data from [Cu_transition_time_course-](https://github.com/gilmana/Cu_transition_time_course-) , containing 4410 gene as rows, and 40 samples as columns. 
+
+**TabPy_Client.ipynb:** Jupyter Notebook, containing python script to publish the clustering function to TabPy server.
+
+**Unpivoted_Clustering.twb:** Tableau Workbook, starting with original data (df5_log2_ratio.csv), using TabPy to run k-means clustering and get clusters overview.
+
+**Pivoted_Visualization.twb:** Tableau Workbook, starting with pivoted data, visualizing genes and their expression level trends through all 40 samples, but failing to do clustering analysis.
+
+**[Image Folder](https://github.com/JiayuanGuo/Learning-Tableau/tree/master/Clustering_RNA-seq/image):** Folder containing important images that are extracted from workbook or used for README discription.
 
