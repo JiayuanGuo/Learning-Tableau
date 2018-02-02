@@ -16,17 +16,27 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
 ## Summary:
 
-Limitation of Tableau: 
+##### Progress:
+
+* Generate Python Script for TabPy Client   **✓**
+
+* Evaluate and deploy py script in calculated fields   ✓
+
+* Visualize clustering results in interactive dashboard    **X**  （cannot proceed to do visualization. Reasons in "Limitation of Tableau" part）
+
+  ​
+
+##### Limitation of Tableau: 
 
 * Tableau only read data by columns, not by rows
 
   * For our data, we need unpivoted data to do clustering analysis by columns (shown as Unpivoted_Workbook), but visualize it by rows (shown as Pivoted_Workbook)
 
-  * Eg. Pivoted Data:
+  * Eg. Pivoted Data:![Pivoted_Data_Example](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png)
 
-    Visualization based on rows:
+    Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
 
-    Failed Clustering:
+    Failed Clustering:![](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/failed_clustering_by_pivoted_data.png)
 
 * TabPy Calculation: cannot return multiple results in one calculated field
 
@@ -38,7 +48,15 @@ Limitation of Tableau:
 
     ![ClustersProcess](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Cluster_preprocess.png)
 
+## Future Plan:
 
+1. Stick with TabPy integration method: Fix the gap of clustering and visualization in Tableau by extracting and re-inputting data.
+
+   ![Future Plan with TabPy](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_TabPy.png)
+
+2. Give up TabPy and use Python for data manipulation & building clustering model
+
+   ![Future Plan with Python](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_Python.png)
 
 ## Folder & Files:
 
