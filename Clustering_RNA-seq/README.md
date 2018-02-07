@@ -34,7 +34,9 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
   * Eg. Pivoted Data:
 
-    ![Pivoted_Data_Example](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png = 30x40)
+  * <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" "zoom:50%" />
+
+    ​
 
     Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
 
@@ -71,4 +73,8 @@ After the clustering calculation, results will be visualized in front-end dashbo
 **Pivoted_Visualization.twb:** Tableau Workbook, starting with pivoted data, visualizing genes and their expression level trends through all 40 samples, but failing to do clustering analysis.
 
 **[Image Folder](https://github.com/JiayuanGuo/Learning-Tableau/tree/master/Clustering_RNA-seq/image):** Folder containing important images that are extracted from workbook or used for README discription.
+
+
+
+
 
