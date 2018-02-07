@@ -34,11 +34,9 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
   * Eg. Pivoted Data:
 
-  * <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" style="zoom:50%" />
+    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" width="200px" /><!--or--><img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" style="height:200px" />
 
-    ​
-
-    Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
+  * Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
 
     Failed Clustering:![](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/failed_clustering_by_pivoted_data.png)
 
@@ -60,7 +58,7 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
 2. Give up TabPy and use Python for data manipulation & building clustering model
 
-   ![Future Plan with Python](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_Python.png)
+   <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_Python.png" style="zoom:50%" />
 
 ## Folder & Files:
 
