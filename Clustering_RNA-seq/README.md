@@ -32,7 +32,9 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
   * For our data, we need unpivoted data to do clustering analysis by columns (shown as Unpivoted_Workbook), but visualize it by rows (shown as Pivoted_Workbook)
 
-  * Eg. Pivoted Data:![Pivoted_Data_Example](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png)
+  * Eg. Pivoted Data:
+
+    ![Pivoted_Data_Example](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png = 30x40)
 
     Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
 
