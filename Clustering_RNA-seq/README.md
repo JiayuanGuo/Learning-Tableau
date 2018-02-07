@@ -34,7 +34,7 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
   * Eg. Pivoted Data:
 
-  * <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" "zoom:50%" />
+  * <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" style="zoom:50%" />
 
     ​
 
