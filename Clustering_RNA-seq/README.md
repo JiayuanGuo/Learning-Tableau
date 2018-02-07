@@ -32,9 +32,11 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
   * For our data, we need unpivoted data to do clustering analysis by columns (shown as Unpivoted_Workbook), but visualize it by rows (shown as Pivoted_Workbook)
 
-  * Eg. Pivoted Data:
+  * Eg. Unpivoted Data & Pivoted Data:
 
-    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" width="200px" /><!--or--><img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" style="height:200px" />
+    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Unpivoted_Data_Example.png" width="200px" />
+
+    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" width="200px" />
 
   * Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
 
@@ -58,7 +60,7 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
 2. Give up TabPy and use Python for data manipulation & building clustering model
 
-   <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_Python.png" style="zoom:50%" />
+   <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Future_Plan_Python.png" width="400px" />
 
 ## Folder & Files:
 
