@@ -38,9 +38,11 @@ After the clustering calculation, results will be visualized in front-end dashbo
 
     Pivoted Data:
 
-    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" width="200px" />
+    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/Pivoted_Data_Example.png" width="270px" />
 
-  * Visualization based on rows:![visualization_by_pivoted_data](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png)
+  * Visualization based on rows:
+
+    <img src="https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/visualization_by_pivoted_data.png" width="650px" />
 
     Failed Clustering:![](https://github.com/JiayuanGuo/Learning-Tableau/blob/master/Clustering_RNA-seq/image/failed_clustering_by_pivoted_data.png)
 
